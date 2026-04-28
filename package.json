@@ -1,0 +1,16 @@
+{
+  "name": "amfi-portfolio-tracker",
+  "version": "1.0.0",
+  "description": "Mutual fund portfolio tracker deployable on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check script.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
